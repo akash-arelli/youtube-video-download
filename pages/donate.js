@@ -40,7 +40,7 @@ const donate = () => {
                 <StipeCheckout
                     stripeKey="pk_live_51IlGNCSDvGZXZeesLdCsfUvWwOWPNYkh54N5mWpxIpVQlxTAiJOREuTvYvAS35TFIDAnOoxSUSI2ECiR0NzI4m7100ppH9NpIZ"
                     token={handleToken}
-                    amount={amount}
+                    amount={amount * 100}
                     currency="INR"
                 />
             </div>
